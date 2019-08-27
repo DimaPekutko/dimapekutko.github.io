@@ -4,7 +4,6 @@ body {
 	font-family: "Dejavu-sans";
   background: #FFFFFF;
   /*color: #FFFFFF;*/
-  /*overflow-x: hidden;*/
 }
 
 .container {
@@ -199,8 +198,8 @@ i {
   max-width: 195px;
   min-height: 100px;
   margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .second_section .logo:nth-child(6) {
@@ -300,7 +299,6 @@ i {
   /*background-size: cover;*/
   /*min-height: 500px;*/
   width: 100%;
-  min-height: 100vh;
   margin-top: 80px;
 }
 
