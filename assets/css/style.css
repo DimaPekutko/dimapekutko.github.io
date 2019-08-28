@@ -7,11 +7,15 @@ body {
 }
 
 .container {
-	min-width: 100%;
+	min-width: 90%;
 }
 
 a {
 	color: #FFFFFF;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -299,6 +303,7 @@ i {
   /*background-size: cover;*/
   /*min-height: 500px;*/
   width: 100%;
+  min-height: 100vh;
   margin-top: 80px;
 }
 
@@ -307,7 +312,7 @@ i {
 }
 
 .fifth_section .info_img img {
-    padding-left: 100px;
+    padding-left: 30px;
 }
 
 .fifth_section .info_div {
@@ -316,6 +321,52 @@ i {
   margin-top: 120px;
   margin-right: 10%;
 }
+
+.sixth_section {
+  background: #0063FF;
+  color: #FFFFFF;
+  min-height: 775px;
+}
+
+.sixth_section #accord_header {
+  padding-top: 110px;
+  padding-bottom: 47px;
+}
+
+.accord_sect {
+    margin-bottom: 30px;
+}
+
+.accord_btn {
+    cursor: pointer;
+}
+
+.accord_el {
+  background-image: url(../images/accord_disabled_el.png);
+  font-size: 23px;
+  text-align: center;
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+}
+
+.accord_sub_text {
+  color: #86C2FF;
+  font-size: 23px;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.accord_text {
+  color: #F5F9FF;
+  display: none;
+  padding-left: 75px;
+}
+
+.sixth_section img {
+    padding-top: 110px;
+}
+
 
 @media screen and (max-width: 1200px) {
 	.header_main_menu .nav-link {
@@ -449,12 +500,12 @@ i {
 }
 
 .fouth_section .info_img img {
-    padding-top: 0;
+    padding-top: 70px;
 }
 
 .fouth_section .info_div {
   float: left;
-  margin-top: 100px;
+  margin-top: 0;
   width: 100%;
 }
 .fifth_section .info_img img {
@@ -462,5 +513,22 @@ i {
 }
 .fifth_section .info_div {
   margin-top: 0;
+}
+
+.accord_sect {
+    margin-bottom: 15px;
+}
+
+.sixth_section #accord_header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.accord_sub_text {
+  padding-left: 30px;
+}
+
+.sixth_section img {
+    padding-top: 30px;
 }
 }
