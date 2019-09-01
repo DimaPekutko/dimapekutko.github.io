@@ -370,7 +370,7 @@ i {
 .seventh_section {
   background-image: url(../images/seventh_s_background.png);
   background-repeat: no-repeat;
-  /*background-size: cover;*/
+  background-size: cover;
   /*min-height: 500px;*/
   width: 100%;
   min-height: 100vh;
@@ -404,7 +404,7 @@ i {
 }
 
 .quotes_quote {
-
+    margin-top: 30px;
 }
 
 .quotes_div p {
@@ -430,13 +430,12 @@ i {
 }
 
 .customer_image img {
-  max-width: 300px;
-  max-height: 290px;
 }
 
 .customer_desc {
   float: left;
   margin-top: 10%;
+  margin-left: 20px;
 }
 
 .seventh_slider_arrows a {
@@ -642,10 +641,12 @@ i {
 }  
 
 .quotes_info {
-  min-height: 80vh;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .quotes_customer {
     margin-top: 30px;
+    text-align: center;
 }  
 }
