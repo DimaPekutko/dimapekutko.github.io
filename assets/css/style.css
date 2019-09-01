@@ -367,6 +367,90 @@ i {
     padding-top: 110px;
 }
 
+.seventh_section {
+  background-image: url(../images/seventh_s_background.png);
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*min-height: 500px;*/
+  width: 100%;
+  min-height: 100vh;
+}
+
+.seventh_section .container {
+    min-width: 875px;
+    max-width: 875px;
+}
+
+.quotes_header {
+    text-align: center;
+    margin-top: 108px;
+    margin-bottom: 120px;
+}
+
+.quotes_header h2 {
+  font-weight: bold;
+}
+
+.quotes_info {
+  background-color: #FFFFFF;
+  box-shadow: 10.603px 29.13px 45.9px 5.1px rgba(12, 12, 12, 0.1);
+  border-radius: 0 0 50px 0;
+  max-height: 425px;
+}
+
+.quotes_div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.quotes_quote {
+
+}
+
+.quotes_div p {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.quotes_customer {
+  display: table;
+  width: 100%;
+  margin-top: 125px;
+}
+
+.quotes_customer .customer_name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.customer_image {
+  float: left;
+}
+
+.customer_image img {
+  max-width: 300px;
+  max-height: 290px;
+}
+
+.customer_desc {
+  float: left;
+  margin-top: 10%;
+}
+
+.seventh_slider_arrows a {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.seventh_slider_arrows a:nth-child(1) {
+    float: left;
+}
+
+.seventh_slider_arrows a:nth-child(2) {
+    float: right;
+}
 
 @media screen and (max-width: 1200px) {
 	.header_main_menu .nav-link {
@@ -479,6 +563,11 @@ i {
   height:auto;
 }
 
+.seventh_section .container {
+    min-width: 90%;
+    max-width: 90%;
+}  
+
 }
 
 @media screen and (max-width: 768px) {
@@ -486,6 +575,21 @@ i {
    background-image: none;
    background: #0063FF;
  }
+
+ .slider_left_slider {
+  color: #FFFFFF;
+  /*max-width: 450px;*/
+  margin-top: 30px;
+}
+
+#read_more_btn {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.slider_right {
+  maring-top: 0;
+}
 
  .third_section .info_img img {
     padding-left: 0;
@@ -531,4 +635,17 @@ i {
 .sixth_section img {
     padding-top: 30px;
 }
+
+.quotes_header {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}  
+
+.quotes_info {
+  min-height: 80vh;
+}
+
+.quotes_customer {
+    margin-top: 30px;
+}  
 }

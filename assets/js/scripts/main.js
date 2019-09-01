@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    //slider
+    //first section sliders
 
     var slider_speed = 8000;
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
     	nextArrow: $('#next_slider_arrow'),
     });
 
-    //sync sliders 
+    //top sliders are sync 
 
     $(".slider_left_carousel").on("afterChange", function (event, slick, currentSlide, nextSlide){
     	 $('.slider_right_slider').slick('slickGoTo', currentSlide);
@@ -76,4 +76,17 @@ $(document).ready(function() {
             }  
     }
 
+    accord_btns[0].click(); // just to show first
+
+
+    //seventh section slider
+
+    $(".seventh_slider").slick({
+        infinite: true,
+        dots: false,
+        arrows: true,
+        prevArrow: $('#seventh_s_left_arrow'),
+        nextArrow: $('#seventh_s_right_arrow'),
+    });
+    
 });
