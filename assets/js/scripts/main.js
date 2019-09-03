@@ -1,3 +1,6 @@
+
+// ! Don't remove slick-theme.css lib, it's changed for custom dots
+
 $(document).ready(function() {
 
     //first section sliders
@@ -7,8 +10,8 @@ $(document).ready(function() {
     $(".slider_left_carousel").slick({
     	infinite: true,
     	dots: true,
+        appendDots: $('.slider_left_nav_panel'),
     	arrows: false,
-    	appendDots: $('.slider_left_nav_panel')
     });
 
     $(".slider_right_slider").slick({
@@ -83,7 +86,8 @@ $(document).ready(function() {
 
     $(".seventh_slider").slick({
         infinite: true,
-        dots: false,
+        dots: true,
+        appendDots: $('.seventh_slider_dots'),
         arrows: true,
         prevArrow: $('#seventh_s_left_arrow'),
         nextArrow: $('#seventh_s_right_arrow'),
