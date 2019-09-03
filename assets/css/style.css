@@ -77,7 +77,7 @@ i {
 }
 
 .header_langs_menu a:nth-child(1) {
-  color: #0063FF;
+  color: #0011f5;
 }
 
 .header_langs_menu {
@@ -276,7 +276,7 @@ i {
   /*background-size: cover;*/
   /*min-height: 500px;*/
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   display: table;
 }
 
@@ -303,7 +303,7 @@ i {
   /*background-size: cover;*/
   /*min-height: 500px;*/
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   margin-top: 80px;
 }
 
