@@ -3,6 +3,9 @@
 
 $(document).ready(function() {
 
+    $('.slider_left_slider').show();
+    $('.slider_right').show();
+
     //first section sliders
 
     var slider_speed = 8000;

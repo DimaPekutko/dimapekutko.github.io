@@ -44,7 +44,7 @@ i {
   -o-background-size: 100%; /* Opera 9.6+ */
   background-size: 100%; /* Современные браузеры */
   background-size: cover;
-  /*min-height: 930px;*/
+  min-height: 90vh;
 }
 
 .navbar-brand {
@@ -150,8 +150,8 @@ i {
 
 .slider_left_slider {
 	color: #FFFFFF;
-	/*max-width: 450px;*/
 	margin-top: 230px;
+  display: none; /* In main.js after document.ready display block. It's to optimize page's loading. */
 }
 
 .slider_left_slider p {
@@ -184,10 +184,7 @@ i {
 	padding: 0;
 	margin: 0;
 	margin-top: 100px;
-}
-
-.slider_right .slide {
-  display: none;
+  display: none; /* In main.js after document.ready display block. It's to optimize page's loading. */
 }
 
 .slider_right_slider img {
@@ -320,7 +317,7 @@ i {
   /*background-size: cover;*/
   /*min-height: 500px;*/
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   margin-top: 80px;
 }
 
