@@ -157,23 +157,23 @@ i {
 }
 
 .read_more_btn {
- background: #FFFFFF;
- color: #0063FF;
- border: none;
- border-radius: 50px;
- outline: none;
- font-size: 16px;
- min-width: 200px;
- min-height: 52px;
- margin-top: 47px;
+   background: #FFFFFF;
+   color: #0063FF;
+   border: none;
+   border-radius: 50px;
+   outline: none;
+   font-size: 16px;
+   min-width: 200px;
+   min-height: 52px;
+   margin-top: 47px;
 }
 
 .read_more_btn:hover, #read_more_btn:focus {
- background: #F0F0F0;
+   background: #F0F0F0;
 }
 
 .read_more_btn a {
-  color: #0063FF;
+   color: #0063FF;
 }
 
 .slider_right {
@@ -819,6 +819,10 @@ i {
   color: #FFFFFF;
   /*max-width: 450px;*/
   margin-top: 30px;
+}
+
+.slider_right {
+  margin-top: 10px;
 }
 
 .read_more_btn {
