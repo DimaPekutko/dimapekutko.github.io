@@ -1,4 +1,4 @@
-
+ 
 // ! Don't remove slick-theme.css lib, it's changed for custom dots
 
 $(document).ready(function() {
@@ -25,7 +25,7 @@ $(document).ready(function() {
     	nextArrow: $('#next_slider_arrow'),
     });
 
-    //top sliders are sync 
+    //first section sliders are sync 
 
     $(".slider_left_carousel").on("afterChange", function (event, slick, currentSlide, nextSlide){
     	 $('.slider_right_slider').slick('slickGoTo', currentSlide);

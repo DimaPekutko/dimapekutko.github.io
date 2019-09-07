@@ -814,6 +814,10 @@ i {
    background: #0063FF;
  }
 
+ .first_section .navbar-brand {
+    margin-left: -5%;
+ }
+
  .slider_left_slider {
   color: #FFFFFF;
   /*max-width: 450px;*/
