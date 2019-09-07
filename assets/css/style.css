@@ -168,7 +168,6 @@ i {
  min-width: 200px;
  min-height: 52px;
  margin-top: 47px;
- margin-bottom: 80px;
 }
 
 .read_more_btn:hover, #read_more_btn:focus {
@@ -824,8 +823,8 @@ i {
   margin-top: 30px;
 }
 
-#read_more_btn {
-  margin-top: 0;
+.read_more_btn {
+  margin-top: 25px;
   margin-bottom: 0;
 }
 
