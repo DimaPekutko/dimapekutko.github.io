@@ -158,7 +158,7 @@ i {
   padding-top: 20px;
 }
 
-#read_more_btn {
+.read_more_btn {
  background: #FFFFFF;
  color: #0063FF;
  border: none;
@@ -171,8 +171,12 @@ i {
  margin-bottom: 80px;
 }
 
-#read_more_btn:hover, #read_more_btn:focus {
+.read_more_btn:hover, #read_more_btn:focus {
  background: #F0F0F0;
+}
+
+.read_more_btn a {
+    color: #0063FF;
 }
 
 .slider_right {
