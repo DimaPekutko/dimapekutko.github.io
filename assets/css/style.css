@@ -30,7 +30,8 @@ img {
 	margin: 0;
 }
 
-a:focus, button:focus {
+a:hover, button:hover, a:focus, button:focus {
+  cursor: pointer;
   outline: none;
 }
 
