@@ -2,6 +2,9 @@ body {
 	font-family: "Dejavu-sans";
   background: #FFFFFF;
   /*color: #FFFFFF;*/
+}
+
+.main_wrap {
   overflow-x: hidden;
 }
 
