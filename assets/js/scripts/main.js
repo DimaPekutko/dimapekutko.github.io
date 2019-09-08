@@ -4,9 +4,6 @@
 $(document).ready(function() {
     
     //in css not working for me.  
-    $('.container-fluid').dataTable( {
-        "scrollX": false
-    } );
 
     $('.slider_left_slider').show();
     $('.slider_right').show();

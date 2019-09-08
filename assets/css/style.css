@@ -4,6 +4,10 @@ body {
   /*color: #FFFFFF;*/
 }
 
+.container-fluid {
+    overflow-x: hidden;
+}
+
 .container {
 	min-width: 90%;
 }
