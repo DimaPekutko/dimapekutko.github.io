@@ -2,8 +2,9 @@
 // ! Don't remove slick-theme.css lib, it's changed for custom dots
 
 $(document).ready(function() {
-
-    $('.main_wrap').dataTable( {
+    
+    //in css not working for me.  
+    $('.container-fluid').dataTable( {
         "scrollX": false
     } );
 
@@ -44,8 +45,8 @@ $(document).ready(function() {
     var slider_interval = setInterval(sliderAutoPlay, slider_speed);
 
     function sliderAutoPlay() {
-       $('#next_slider_arrow').click()
-   }
+     $('#next_slider_arrow').click()
+ }
 
    //second section slider (only in mobile).
 
