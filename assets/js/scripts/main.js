@@ -3,6 +3,10 @@
 
 $(document).ready(function() {
 
+    $('.main_wrap').dataTable( {
+        "scrollX": false
+    } );
+
     $('.slider_left_slider').show();
     $('.slider_right').show();
 

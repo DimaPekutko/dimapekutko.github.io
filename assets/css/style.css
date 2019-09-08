@@ -5,7 +5,7 @@ body {
 }
 
 .main_wrap {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 .container {
@@ -826,6 +826,7 @@ i {
 }
 
 @media screen and (max-width: 768px) {
+
   .first_section {
    background-image: none;
    background: #0063FF;
