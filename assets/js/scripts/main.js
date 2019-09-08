@@ -3,7 +3,6 @@
 
 $(document).ready(function() {
     
-    //in css not working for me.  
 
     $('.slider_left_slider').show();
     $('.slider_right').show();
