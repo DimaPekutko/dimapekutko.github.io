@@ -5,7 +5,8 @@ body {
 }
 
 .main_wrap {
-  overflow-x: hidden;
+  overflow: hidden;
+  position: fixed;
 }
 
 .container {
